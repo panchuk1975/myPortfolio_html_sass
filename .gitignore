@@ -24,6 +24,6 @@ yarn-error.log*
 .idea
 .yarn.lock
 .node_modules
-.gitignore]
+.gitignore
 .yarn-error.log
 .debug/log
