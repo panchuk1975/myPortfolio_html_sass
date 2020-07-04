@@ -1,5 +1,5 @@
-@import 'config';
-@import 'menu';
+@import "config";
+@import "menu";
 
 * {
   box-sizing: border-box;
@@ -8,7 +8,7 @@
 body {
   @include background;
   background: $primary-color;
-  color: white;
+  color: rgb(148, 148, 148);
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -31,7 +31,7 @@ h3 {
 }
 
 a {
-  color: white;
+  color: rgb(148, 148, 148);
   text-decoration: none;
 }
 
@@ -65,5 +65,3 @@ main {
     }
   }
 }
-
-
