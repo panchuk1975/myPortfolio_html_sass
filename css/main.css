@@ -112,8 +112,13 @@
       grid-template-columns: 1fr;
       grid-gap: 20px; }
       main .about-info .bio-image {
-        width: 260px;
-        height: 260px; }
+        opacity: 2;
+        z-index: 4;
+        width: 250px;
+        height: 250px;
+        background: url("../img/portraite360black.png");
+        border-radius: 50%;
+        border: solid 3px #eece1a; }
       main .about-info .bio {
         font-size: 1rem; }
     main .projects {
